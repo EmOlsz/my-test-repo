@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fcf8f3;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  padding-top: 43px;
+  padding-bottom: 58px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.icons {
+  margin-left: auto;
+  align-items: center;
+}
+
+.logo {
+  width: 75px;
+}
+
+.control_img {
+  width: 50%;
+}
+
+.links li {
+  padding-right: 20px;
+}
+
+.links li a {
+  color: #3a3a3a;
+  text-decoration: none;
+  display: flex;
+}
+
+.profile_img {
+  width: 40px;
+}
+
+.banner_outer {
+  padding-bottom: 80px;
+}
+
+.banner_inner {
+  width: 374px;
+  background-color: #fff;
+  padding: 60px;
+}
+
+.main_heading {
+  margin: 0;
+  font-size: 56px;
+  margin-bottom: 16px;
+  color: #3a3a3a;
+}
+
+.main_desc {
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 48px;
+  color: #898989;
+}
+
+.shop_now {
+  padding: 24px 141px;
+  background-color: #e89f71;
+  color: #fff;
+  border: 0;
+  width: 100%;
+  transition: all 1s ease;
+  font-size: 16px;
+  /* transition: width 1s, font-size 1s; */
+}
+
+.shop_now:focus {
+  width: 150%;
+  font-size: 30px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: greenyellow;
+  position: relative;
+}
+
+.overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 1s;
+}
+
+.card:hover > .overlay {
+  opacity: 1;
+}
+
+.calc_exercise {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.input {
+  width: 50%;
+}
